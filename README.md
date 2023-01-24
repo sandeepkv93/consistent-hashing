@@ -72,17 +72,9 @@ In this example, the main method creates a new ConsistentHash object, adds three
 
 You can adjust the number of replicas in the `generateCircle()` method to increase the number of points in the circle, which can help to distribute keys more evenly among the nodes.
 
-### Acknowledgements
-
--   The algorithm and implementation of consistent hashing is based on the paper ["Consistent Hashing and Random Trees: Distributed Caching Protocols for Relieving Hot Spots on the World Wide Web"](https://www.akamai.com/us/en/multimedia/documents/technical-publication/consistent-hashing-and-random-trees-distributed-caching-protocols-for-relieving-hot-spots-on-the-world-wide-web-technical-publication.pdf) by David Karger, Eric Lehman, Tom Leighton, Rina Panigrahy, Matthew Levine, Daniel Lewin, and Ravi Panchanathan.
-
--   The code structure and documentation is based on the work done by other contributors in the open-source community.
-
 ### References
 
 -   [Consistent Hashing - Wikipedia](https://en.wikipedia.org/wiki/Consistent_hashing)
--   [Consistent Hashing: Algorithm, Examples, and Optimizations](https://www.arangodb.com/2015/03/consistent-hashing-algorithm-examples-optimizations/)
--   [Consistent Hashing and Random Trees: Distributed Caching Protocols for Relieving Hot Spots on the World Wide Web](https://www.akamai.com/us/en/multimedia/documents/technical-publication/consistent-hashing-and-random-trees-distributed-caching-protocols-for-relieving-hot-spots-on-the-world-wide-web-technical-publication.pdf)
 
 ### Additional Information
 
