@@ -1,4 +1,4 @@
-package main
+package consistenthashing
 
 import (
 	"crypto/md5"
@@ -39,7 +39,7 @@ func (c *ConsistentHash) GetNode(key string) string {
 	point := c.getPoint(key)
 	var node string
 	for k, v := range c.circle {
-		if k > point {
+		if k >= point {
 			node = v
 			break
 		}

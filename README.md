@@ -7,7 +7,7 @@ Consistent Hashing is a distributed hash table algorithm that allows for more ef
 To use this package, you can simply go get it:
 
 ```sh
-go get github.com/yourusername/consistent-hashing
+go get github.com/sandeepkv93/consistent-hashing
 ```
 
 ### Usage
